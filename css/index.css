@@ -1,0 +1,47 @@
+body, figure {
+  margin: 0;
+}
+
+header {
+  line-height: 52px;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(255, 229, 86);
+  background-color: #101f32;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 46%;
+  margin-top: 20px;
+}
+
+figure:last-child {
+  width: 100%;
+}
+
+figcaption {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+a {
+  flex: 1;
+  margin-top: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
