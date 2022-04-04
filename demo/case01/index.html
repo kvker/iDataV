@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <title>地图数据可视化</title>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+
+  <body>
+    <header>
+      <h3>地图数据可视化</h3>
+    </header>
+
+    <main>
+      <section class="box box-left">
+        <div class="xpanel-wrapper xpanel-wrapper-2">
+          <div class="xpanel">
+            <!-- 地图飞线 -->
+            <div class="fill-h" id="flyMap"></div>
+          </div>
+        </div>
+        <div class="xpanel-wrapper xpanel-wrapper-2">
+          <div class="xpanel">
+            <!-- 世界地图 -->
+            <div class="fill-h" id="worldMap"></div>
+          </div>
+        </div>
+      </section>
+      <section class="box box-center">
+        <div class="xpanel-wrapper xpanel-wrapper-1">
+          <div class="xpanel">
+            <!-- 地图散点 -->
+            <div class="fill-h" id="scatterMap"></div>
+          </div>
+        </div>
+      </section>
+      <section class="box box-right">
+        <div class="xpanel-wrapper xpanel-wrapper-3">
+          <div class="xpanel">
+            <!-- 省份地图 -->
+            <div class="fill-h" id="provinceMap"></div>
+          </div>
+        </div>
+        <div class="xpanel-wrapper xpanel-wrapper-3">
+          <div class="xpanel">
+            <!-- 城市地图 -->
+            <div class="fill-h" id="cityMap"></div>
+          </div>
+        </div>
+        <div class="xpanel-wrapper xpanel-wrapper-3">
+          <div class="xpanel">
+            <!-- 区县地图 -->
+            <div class="fill-h" id="countyMap"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/echarts-3.8.5.min.js"></script>
+    <script src="js/echarts-map-world.js"></script>
+    <script src="js/echarts-map-china.js"></script>
+    <script src="js/echarts-china-provinces/jiangsu.js"></script>
+    <script src="js/echarts-china-cities/jiang1_su1_su1_zhou1.js"></script>
+    <script src="js/echarts-china-counties/jiang1su1_su1zhou1_kun1shan1shi4.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
